@@ -1,0 +1,160 @@
+
+
+
+/* cabeçalho inicio*/
+
+#inicio{
+  background-image: url(../images/beach_park/background_home3.jpg) ;
+  background-position: 100% 50%;
+  
+}
+.mynavbar {
+  grid-column: 1/5;
+}
+.grid_navbar {
+    /* The image used */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  
+    
+  }
+.nav-item{
+  color: white; 
+  
+}
+                                   /* cabeçalho inicio*/
+
+
+ /* 2 parte*/
+
+ .galeria_fotos{
+background-image: url(../images/beach_park/background_parte2.png);
+background-size: cover;
+ }
+                                   /* 2 parte*/
+
+
+
+
+
+  /* 3 parte galeria com bordar*/  
+
+.galeriacborda{
+  background-image: url(../images/beach_park/3parte/background.png);
+  background-size: cover;
+  position: relative;
+  z-index: -5;
+}
+
+
+
+  @media (min-width: 992px) {
+    #foto_horizontal_dupla{
+    width: 31.8%!important;
+  }
+  #foto_vertical1{
+    width: 34%!important;
+  }
+  #foto_vertical2{
+    width: 34%!important;
+  }
+  }
+  @media (min-width: 319px) and (max-width: 991px){
+    #foto_horizontal_dupla{
+      width: 98%!important;
+    }
+    #foto_vertical1{
+      width: 98%!important;
+    }
+    #foto_vertical2{
+      width: 98%!important;
+    }
+  }
+  
+
+  .border_foto{
+    --borderWidth: 5px;
+    background: transparent;
+    position: relative;
+    border-radius: var(--borderWidth);
+    
+  }
+  
+  .border_foto:after{
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #82d2e1, #99d9e5, #b1e1eb, #6ccbdd, #4fc4cb, #0db3b1, #03abab, #087c7b);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+                                 /* 3 parte galeria com bordar*/  
+                                 
+                                 
+/* 4 parte*/
+@media (min-width: 992px) {
+.parallax{
+        /* The image used */
+  
+  background-image: url("../images/beach_park/3parte/kalafrio2.png");
+  
+
+  /* Set a specific height */
+
+   
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.display_mute{
+  display: none;
+}
+
+}
+@media (max-width: 991px){
+  .parallax{
+    /* The image used */
+
+background-image: url("../images/beach_park/3parte/IMG_20230605_171940.jpg");
+
+
+/* Set a specific height */
+
+
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+  .display_mute2{
+    display: none;
+  }
+}
+                                 /* 4 parte*/

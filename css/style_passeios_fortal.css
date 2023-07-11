@@ -1,0 +1,428 @@
+
+
+
+/* cabeçalho inicio*/
+
+#inicio{
+  background-image: url(../images/passeios_fortal/home/BACKGROUND_HOME.png) ;
+  
+}
+.mynavbar {
+  grid-column: 1/5;
+}
+.grid_navbar {
+    /* The image used */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  
+    
+  }
+.nav-item{
+  color: white; 
+  
+}
+                                   /* cabeçalho inicio*/
+
+
+/* Sessão 2 Gallery*/
+#sessao2_gallery h2{
+  font-family: 'Glegoo', serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  text-align: CENTER;
+  color: #1b5693;
+  
+  text-shadow: 
+               -1px 1px 0px white;
+  
+  
+}
+
+#sessao2_gallery{
+        /* The image used */
+  
+  background-image: url("../images/passeios_fortal/2 parte/background2.png");
+
+  /* Set a specific height */
+   
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.border_quadro{
+    border: 15px solid transparent;
+    border-image: url('../images/passeios_fortal/2 parte/textura2.png') 5;   
+    
+}
+.border_quadrovid{
+    border: 15px solid transparent;
+    border-image: url('../images/passeios_fortal/2 parte/textura5.jpg') 300;   
+    
+}
+@media (max-width: 991px){
+    #sessao2_gallery video{
+        
+    }
+}
+
+                                 /* Sessão 2 Gallery*/
+
+
+
+/* Sessão 3 museu industria*/
+@media (max-width: 991px){
+  .offset-md-6 {
+      margin-left: 0%!important;
+  }}
+  
+
+
+.museu_industria h2{
+  font-family: 'Glegoo', serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  text-align: CENTER;
+  color: #e2a02b;
+  
+  text-shadow: 
+               -1px 1px 0px white;
+  
+  
+}
+.museu_industria{
+  background-image: url(../images/passeios_fortal/3parte_eletricidade/background.png);
+}
+.border_quadro_eletricidade{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/3parte_eletricidade/textura1.avif') 50;   
+  
+}
+
+
+
+
+.museu_carnauba{
+  background-image: url(../images/passeios_fortal/3parte_eletricidade/background2.png);
+}
+.border_quadro_carnauba{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/3parte_eletricidade/textura2.jpg') 50;   
+  
+}
+
+                          /* Sessão 3 museu industria*/
+
+
+
+/* Sessão 4 SEFAZ*/
+ .museu_sefaz h2{
+  font-family: 'Glegoo', serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  text-align: CENTER;
+  color: #258a42;
+  
+  text-shadow: 
+               -1px 1px 0px white;
+  
+  
+}
+.museu_sefaz{
+  background-image: url(../images/passeios_fortal/4parte_sefaz/background.png);
+}
+.border_quadro_sefaz{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/4parte_sefaz/textura3.png') 100;   
+  
+}                         
+                                 /* Sessão 4 SEFAZ*/
+
+
+
+
+
+
+
+/* Sessão 5 CAIXA CULTURAL*/
+@media (min-width: 992px){
+  .parallax2{
+    background-image: url("../images/passeios_fortal/5parte_caixa_cultura/UMA.png");
+
+  /* Set a specific height */
+  min-height: 90vh; 
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .img_parallax2{
+    display: none;
+  }
+  #texto_parallax2{
+    font-family: 'Glegoo', serif;
+    font-size: 2EM;
+    letter-spacing: 0.2em;
+    text-align: CENTER;
+    color: #fac69e;
+    
+    text-shadow: 
+                 -1px 1px 0px white;
+    grid-column: 2/4;
+    grid-row: 1/5;
+    
+    justify-self: center;
+  
+  }
+}
+@media (max-width: 991px){
+  .img_parallax2{
+    grid-column: 1/5;
+  grid-row: 1/5;
+  order: -1;
+  }
+  #texto_parallax2{
+    font-family: 'Glegoo', serif;
+    font-size: 3vw;
+    letter-spacing: 0.2em;
+    text-align: CENTER;
+    color: #e6741e;
+    
+    text-shadow: 
+                 -1px 1px 0px white;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    
+  
+  }
+  
+}
+
+.parallax2{
+  /* The image used */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  
+  
+}
+                                                       /* Sessão 5 CAIXA CULTURAL*/
+
+
+/* Sessão 6 dragao do mar*/  
+
+.dragao_mar{
+  
+  border-left: 1px solid #fb3f2b;
+  border-right: 1px solid #fb3f2b;
+  margin-right: 0.1vw;
+  margin-left: 0.1vw;
+}
+
+.dragao_parte1 h2{
+  font-family: 'Glegoo', serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  text-align: CENTER;
+  color: #fb3f2b;
+  
+  text-shadow: 
+               -1px 1px 0px gray;
+  
+  
+}
+.dragao_parte1{
+  background-image: url(../images/passeios_fortal/6dragao_mar/background1.1.png);
+}
+.border_quadro_dragparte1{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/6dragao_mar/textura1.jpg') 50;   
+  
+}   
+
+
+.dragao_parte2{
+  background-image: url(../images/passeios_fortal/6dragao_mar/background2.png);
+}
+.border_quadro_dragparte2{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/6dragao_mar/textura2.avif') 10;   
+  
+}  
+
+
+.dragao_parte3{
+  background-image: url(../images/passeios_fortal/6dragao_mar/background3.png);
+}
+.border_quadro_dragparte3{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/6dragao_mar/textura3.1.jpg') 50;   
+  
+}  
+
+
+.dragao_parte4{
+  background-image: url(../images/passeios_fortal/6dragao_mar/background4.png);
+}
+.border_quadro_dragparte4{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/6dragao_mar/textura4.jpg') 400;   
+  
+} 
+                                              /* Sessão 6 dragao do mar*/  
+
+
+ /* Sessão 7 museu escrita*/
+
+
+.museu_escrita h2{
+  font-family: 'Glegoo', serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  text-align: CENTER;
+  color: #3a5593;
+  
+  text-shadow: 
+               -1px 1px 0px white;
+  
+  
+}
+
+.museu_escrita{
+          /* The image used */
+  
+          background-image: url("../images/passeios_fortal/7museu_da_escrita/background.png");
+
+          /* Set a specific height */
+           
+          
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+.border_quadro_museu_escrita{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/7museu_da_escrita/textura2.avif') 50;   
+  
+} 
+
+@media (max-width: 991px){
+.offset-md-2 {
+    margin-left: 0%!important;
+}}
+
+
+                                   /* Sessão 7 museu escrita*/
+
+
+
+
+
+ /* Sessão 8 museu fotografia*/
+
+
+ .museu_fotografia h2{
+  font-family: 'Glegoo', serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  text-align: CENTER;
+  color: #f70811;
+  
+  text-shadow: 
+               -1px 1px 0px white;
+  
+  
+}
+
+.museu_fotografia{
+          /* The image used */
+  
+          background-image: url("../images/passeios_fortal/8museu_da_fotografia/background.png");
+
+          /* Set a specific height */
+           
+          
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+.border_quadro_museu_fotografia{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/8museu_da_fotografia/textura.avif') 200;   
+  
+} 
+                          /* Sessão 8 museu fotografia*/
+
+
+
+
+
+/* Sessão 9 BEIRA MAR*/
+.beira_mar h2{
+  font-family: 'Glegoo', serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  text-align: CENTER;
+  color: WHITE;
+  
+  text-shadow: 
+               -1px 1px 0px BLACK;
+  
+  
+}
+.beira_mar{
+  background-image: url(../images/passeios_fortal/9beira_mar/BACKGROUND.png);
+}
+.border_quadro_beira_mar{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/9beira_mar/TEXTURA3.avif') 100;   
+  
+} 
+                                             /* Sessão 9 BEIRA MAR*/
+
+
+
+/* Sessão 10 FINAL*/
+.final_10 h2{
+  font-family: 'Glegoo', serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  text-align: CENTER;
+  color: WHITE;
+  
+  text-shadow: 
+               -1px 1px 0px BLACK;
+  
+  
+}
+.final_10{
+  background-image: url(../images/passeios_fortal/final/BACKBROUND.png);
+}
+.border_quadro_final_10{
+  border: 15px solid transparent;
+  border-image: url('../images/passeios_fortal/final/TEXTURA2.jpg') 100;   
+  
+} 
+                                             /* Sessão 10 FINAL*/
